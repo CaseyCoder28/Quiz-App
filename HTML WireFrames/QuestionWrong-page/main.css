@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0; 
+}
+
+
+:root {
+  background-color: #ecf5ff;
+  font-size: 100.5%; 
+ 
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  margin: 0 auto; 
+}
+
+.choice-container{
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+
+}
+
+#choice{
+  padding: 1.5rem;
+  font-family: showcard-gothic;
+  border: 0.1rem solid rgb(86,165,235,0.25);
+  border-radius: 4.5rem;
+  background-color: white;
+}
+
+#question{
+  color: red;
+  margin-top: 13.5rem;
+  margin-bottom: 1.5rem; 
+  border: 0.1rem solid rgb(86,165,235,0.25);
+  border-radius: 4.5rem;
+  padding: 1.5rem;
+  background-color: white;
+  font-family: showcard-gothic;
+  font-size: 1.8rem;
+}
+
+
+
+.choice-prefix1{
+  position: relative;
+  right: 7.9rem;
+  color: red; 
+}
+
+
+.choice-prefix2{
+  position: relative;
+  left: 10.5rem;
+  bottom:5.8rem;
+  margin-right: 10.5rem;
+  color: red; 
+}
+
+.choice-prefix3{
+  position: relative;
+  right: 8.1rem;
+  bottom: 5.9rem;
+  color: red; 
+}
+
+.choice-prefix4{
+  position: relative;
+  left: 5.1rem;
+  bottom:11.5rem;
+  color: red; 
+}
+
+#hud{
+  position: relative;
+  top: 5.1rem;
+  font-family: showcard-gothic;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hud-prefix{
+  text-align: center;
+}
+
+.progressBar{
+  width: 10rem;
+  height: 2rem;
+  border: 0.3rem solid black;
+}
+
+#progressText{
+  font-size: 2.4rem;
+  position: relative;
+  right: 25.1rem;
+  top: 1.5rem;
+}
+
+#score{
+  font-size: 2.4rem;
+  position: relative;
+  left: 21.1rem;
+  bottom: 3.5rem;
+}
