@@ -82,7 +82,7 @@
 
 #hud{
   position: relative;
-  top: 5.1rem;
+  top: 8.1rem;
   font-family: showcard-gothic;
   display: flex;
   justify-content: space-around;
@@ -110,4 +110,17 @@
   position: relative;
   left: 21.1rem;
   bottom: 3.5rem;
+}
+
+.tryAgian{
+  font-family: showcard-gothic;
+  font-size: 2.4rem;
+  position: relative;
+  left: 30.1rem;
+  bottom: 10.5rem;
+  border: 0.1rem solid rgb(86,165,235,0.25);
+  border-radius: 4.5rem;
+  padding: 1.5rem;
+  background-color: white;
+  width: 17.0rem;
 }
